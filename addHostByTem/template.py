@@ -1,0 +1,54 @@
+#
+#coding:utf8
+tem="""
+     <host>
+            <host>{ip}</host>
+            <name>{name}</name>
+            <description/>
+            <proxy>
+                <name>{proxy}</name>
+            </proxy>
+            <status>0</status>
+            <ipmi_authtype>-1</ipmi_authtype>
+            <ipmi_privilege>2</ipmi_privilege>
+            <ipmi_username/>
+            <ipmi_password/>
+            <tls_connect>1</tls_connect>
+            <tls_accept>1</tls_accept>
+            <tls_issuer/>
+            <tls_subject/>
+            <tls_psk_identity/>
+            <tls_psk/>
+            <templates>
+                <template>
+                    <name>Onebank Linux</name>
+                </template>
+                <template>
+                    <name>Template Discover JCJG</name>
+                </template>
+            </templates>
+            <groups>
+                <group>
+                    <name>Onebank 基础架构 WGQ</name>
+                </group>
+            </groups>
+            <interfaces>
+                <interface>
+                    <default>1</default>
+                    <type>1</type>
+                    <useip>1</useip>
+                    <ip>{ip}</ip>
+                    <dns/>
+                    <port>10050</port>
+                    <bulk>1</bulk>
+                    <interface_ref>if1</interface_ref>
+                </interface>
+            </interfaces>
+            <applications/>
+            <items/>
+            <discovery_rules/>
+            <httptests/>
+            <macros/>
+            <inventory/>
+        </host>
+ """
