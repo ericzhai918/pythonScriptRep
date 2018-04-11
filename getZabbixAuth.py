@@ -94,7 +94,11 @@ def getGroup(ip_list):
          print(i)
 '''
 
-print(getHosts(userLogin()))
+hosts=getHosts(userLogin())
+
+print("hostid  host")
+for i in hosts:
+        print(i['hostid'],'|',i['host'])
 
 #curl -i -X POST -H 'Content-Type:application/json' -d '{"jsonrpc":"2.0","method":"user.login","params":{"user":"Admin","password":"zabbix"},"auth":null,"id":0}' http://10.10.10.10/zabbix/api_jsonrpc.php
 
